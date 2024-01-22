@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-style: normal;
 }
 
-body{
+body {
     font-size: 62.5%;
     color: white;
     background-color: black;
@@ -15,83 +16,98 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
-    
-}
-main{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-/* background-color: #1F1F1F; */
-background-color: brown;
-width: 22rem;
-height: 35rem;
 
 }
-article{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 19.5rem;
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1F1F1F; 
+    width: 22rem;
+    height: 35rem;
+    border-radius: 0.6rem;
+
 }
 
-address{
+article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 19.5rem;
 }
-figure{
-display: flex;
-align-items: flex-end;
-background-color: aliceblue;
-height: 7.8rem;
-}
-img{
-width: 6rem;
-border-radius: 20rem;
+
+address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19.5rem;
 }
 
-h1{
+figure {
     display: flex;
     align-items: flex-end;
-font-size: 1.7rem;
-height: 3rem;
-background-color: aqua;
+    background-color: rgba(240, 248, 255, 0);
+    height: 7.8rem;
 }
 
-h2{
-font-size: 1rem;
-color: yellow;
-background-color: rgb(29, 123, 206);
-height: 3rem;
+img {
+    width: 6rem;
+    border-radius: 20rem;
 }
 
-p{
-
-font-size: 1rem;
-background-color: rgb(230, 38, 24);
-height: 2.6rem;
+h1 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.7rem;
+    height: 4rem;
+    background-color: rgba(0, 255, 255, 0);
 }
 
-section{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 0.5rem;
+h2 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+    color: yellow;
+    background-color: rgba(29, 123, 206, 0);
+    height: 1.8rem;
 }
 
-a{
-text-align: center;
-text-decoration: none;
-font-size: 1rem;
-font-weight: 600;
-border-radius: 0.3rem;
-padding: 0.6rem;
-width: 18.3rem;
-background-color: #333333;
-color:white;
+p {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+    background-color: rgba(230, 38, 24, 0);
+    height: 2.8rem;
+}
+
+section {
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.7rem;
+    height: 17.3rem;
+}
+
+a {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    width: 18.3rem;
+    background-color: #333333;
+    color: white;
+}
+a:hover{
+    background-color: yellow;
+    color: #1F1F1F;
+    cursor: pointer;
 }
