@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body{
+    font-size: 62.5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+/* background-color: #1F1F1F; */
+background-color: brown;
+width: 22rem;
+height: 35rem;
+
+}
+article{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 19.5rem;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19.5rem;
+}
+figure{
+display: flex;
+align-items: flex-end;
+background-color: aliceblue;
+height: 7.8rem;
+}
+img{
+width: 6rem;
+border-radius: 20rem;
+}
+
+h1{
+    display: flex;
+    align-items: flex-end;
+font-size: 1.7rem;
+height: 3rem;
+background-color: aqua;
+}
+
+h2{
+font-size: 1rem;
+color: yellow;
+background-color: rgb(29, 123, 206);
+height: 3rem;
+}
+
+p{
+
+font-size: 1rem;
+background-color: rgb(230, 38, 24);
+height: 2.6rem;
+}
+
+section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+}
+
+a{
+text-align: center;
+text-decoration: none;
+font-size: 1rem;
+font-weight: 600;
+border-radius: 0.3rem;
+padding: 0.6rem;
+width: 18.3rem;
+background-color: #333333;
+color:white;
+}
