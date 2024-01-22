@@ -26,7 +26,7 @@ main {
     align-items: center;
     background-color: #1F1F1F; 
     width: 22rem;
-    height: 35rem;
+    height: 35.8rem;
     border-radius: 0.6rem;
 
 }
@@ -71,7 +71,7 @@ h2 {
     display: flex;
     align-items: flex-end;
     font-size: 1rem;
-    color: yellow;
+    color: #c5f82a;
     background-color: rgba(29, 123, 206, 0);
     height: 1.8rem;
 }
